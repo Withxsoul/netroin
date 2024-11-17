@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>Netroin</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://via.placeholder.com/50" alt="Логотип" class="logo">
+            <h1>Netroin</h1>
+            <nav>
+                <a href="#advantages">Дискорд</a>
+                <a href="#services">Телеграм</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h2>Netroin.site › Майнкрафт Хостинг</h2>
+            <p>Игровая защита от DDoS-атак RS Media
+Мощные процессоры: Ryzen 9 3900X
+Наши сервера находятся в Москве, пинг будет максимально низким</p>
+        </section>
+
+
+<section class="rate-card">
+    <h2>Тариф - Custom</h2>
+    <div class="rate-item">
+        <i class="fas fa-microchip"></i>
+        <div class="rate-control">
+            <button class="btn" data-type="cpu" onclick="changeValue('cpu', -1)">-</button>
+            <span id="cpu">0</span>
+            <button class="btn" data-type="cpu" onclick="changeValue('cpu', 1)">+</button>
+        </div>
+        <p class="rate-label">Ядер</p>
+    </div>
+    <div class="rate-item">
+        <i class="fas fa-memory"></i>
+        <div class="rate-control">
+            <button class="btn" data-type="ram" onclick="changeValue('ram', -3)">-</button>
+            <span id="ram">0</span>
+            <button class="btn" data-type="ram" onclick="changeValue('ram', 3)">+</button>
+        </div>
+        <p class="rate-label">ОЗУ</p>
+    </div>
+    <div class="rate-item">
+        <i class="fas fa-hdd"></i>
+        <div class="rate-control">
+            <button class="btn" data-type="disk" onclick="changeValue('disk', -5)">-</button>
+            <span id="disk">0</span>
+            <button class="btn" data-type="disk" onclick="changeValue('disk', 5)">+</button>
+        </div>
+        <p class="rate-label">Диск</p>
+    </div>
+    <div class="total-price">
+        <h3>Итого: <span id="total">0</span> рублей / месяц</h3>
+    </div>
+    <div class="buy-button-container">
+        <button class="buy-button">Купить</button>
+    </div>
+</section>
+
+
+
+<section class="advantages" id="advantages">
+    <h2 class="section-title">Преимущества</h2>
+    <div class="advantage-icons">
+        <div class="icon">
+            <i class="fas fa-clock"></i>
+            <p>Большой опыт</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-star"></i>
+            <p>Качество</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-users"></i>
+            <p>Отзывы</p>
+        </div>
+    </div>
+</section>
+    </main>
+    
+    
+    
+    
+        <section class="advantages" id="advantages">
+    <div class="container">
+
+        <div class="feature">
+            <i class="fas fa-database"></i>
+            <span>Бесплатные доп. порты</span>
+        </div>
+        <div class="feature">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <span>Бесплатные бекапы</span>
+        </div>
+        <div class="feature">
+            <i class="fas fa-plug"></i>
+            <span>Бесплатные базы данных</span>
+        </div>
+    </div>
+    
+    
+
+    <footer>
+        <p>© Netroin 2024. Все права защищены.</p>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
