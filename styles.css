@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Темный фон для всего тела */
+    color: #e0e0e0; /* Светлый текст */
+}
+
+header {
+    background-color: #1e1e1e; /* Темный фон для заголовка */
+    color: white; /* Белый текст */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #bb86fc; /* Светлый цвет для ссылок */
+}
+
+.hero {
+    text-align: center;
+    background-color: #1e1e1e; /* Темный фон для секции героя */
+    padding: 40px 20px;
+    border-radius: 15px; /* Закругление углов */
+    margin-bottom: 40px; /* Отступ вниз от секции героев */
+}
+
+
+h2 {
+    margin: 20px 0;
+}
+
+.advantages {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #121212; /* Светлый фон для большей выразительности */
+    border-radius: 8px; /* Скругление углов */
+}
+
+.section-title {
+    font-size: 2rem; /* Размер заголовка */
+    margin-bottom: 20px; /* Отступ вниз от заголовка */
+    color: #333; /* Цвет заголовка */
+}
+
+.advantage-icons {
+    display: flex;
+    justify-content: center; /* Центрирование иконок */
+    gap: 30px; /* Пробел между иконками */
+}
+
+.icon {
+    background-color: #1e1e1e; /* Белый фон для иконок */
+    border-radius: 10px; /* Скругление углов иконок */
+    padding: 20px; /* Отступ внутри иконки */
+    width: 120px; /* Фиксированная ширина для большей согласованности */
+    transition: transform 0.3s, box-shadow 0.3s; /* Анимация при наведении */
+    text-align: center; /* Центрирование текста внутри иконки */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Легкая тень под иконками */
+}
+
+.icon:hover {
+    transform: translateY(-5px); /* Подъем иконки при наведении */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Увеличенная тень при наведении */
+}
+
+.icon i {
+    font-size: 40px; /* Размер иконки */
+    color: #007BFF; /* Цвет иконки */
+}
+
+.icon p {
+    font-size: 1rem;
+    margin-top: 10px; /* Отступ между иконкой и текстом */
+    color: #555; /* Цвет текста */
+}
+
+
+
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование текста под иконками */
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Центрирование элементов меню */
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.menu-item {
+    background-color: #333; /* Темный фон для элементов меню */
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    transition: background-color 0.3s; /* Плавный переход фона */
+}
+
+.menu-item:hover {
+    background-color: #444; /* Более светлый фон при наведении */
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #6200ee; /* Цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    color: #b0b0b0; /* Светлый текст для подвала */
+    padding: 20px 0;
+    background-color: #1e1e1e; /* Темный фон для футера */
+    border-top: 1px solid #333; /* Граница сверху футера */
+    border-radius: 0 0 15px 15px; /* Закругление углов снизу */
+    margin-top: 20px; /* Отступ сверху для отделения футера от контента */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.rate-card {
+    background-color: #1e1e1e; /* Темный фон для карточки рейтинга */
+    border: 1px solid #333; /* Темная граница */
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Легкая тень для выделения */
+    margin: 0 auto; /* Центрирование карточки на странице */
+}
+
+.rate-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
