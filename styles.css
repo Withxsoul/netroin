@@ -185,3 +185,66 @@ main {
     text-align: center;
     margin-bottom: 20px;
 }
+
+
+.rate-item {
+    display: flex;
+    align-items: center; /* Выровнять по вертикали */
+    justify-content: space-between; /* Разделение элементов */
+    margin-bottom: 15px; /* Увеличен отступ для равномерного пространства */
+}
+
+.rate-control {
+    display: flex;
+    align-items: center;
+}
+
+.rate-label {
+    width: 50px; /* Фиксированная ширина для текста */
+    text-align: left; /* Выровняйте текст по левому краю */
+}
+
+.btn {
+    background-color: #6200ee; /* Цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px; /* Уменьшение отступов между кнопками */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Плавный переход цвета фона */
+}
+
+.btn:hover {
+    background-color: #3700b3; /* Темнее фоновый цвет при наведении */
+}
+
+.btn:active {
+    transform: scale(1.5); /* Увеличение кнопки при нажатии */
+}
+
+.total-price {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buy-button-container {
+    text-align: center; /* Центрируем кнопку */
+    margin-top: 20px; /* Отступ сверху для отделения от итога */
+}
+
+.buy-button {
+    background-color: #6200ee; /* Фиолетовый цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 5px; /* Закругление углов кнопки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; /* Плавный переход цвета фона и эффект при наведении */
+    font-size: 16px; /* Размер шрифта */
+}
+
+.buy-button:hover {
+    background-color: #3700b3; /* Темнее фоновый цвет при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+}
